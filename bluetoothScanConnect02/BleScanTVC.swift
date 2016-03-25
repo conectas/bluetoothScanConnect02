@@ -62,23 +62,10 @@ class BleScanTVC: UITableViewController, BTDiscoveryDelegate {
         }
     }
     
-    
+    // ----------------------------------------------------------------------------------------------------
     func bteErgConnectSET(lader: BTDiscovery) {
         
-        // Now that we are setup, return to main view.
-        if let navigationController = navigationController {
-            _ = navigationController
-            // navTitle = navTitleTxt
-            
-//            let mainVC = self.navigationController!.viewControllers.first as! ViewController
-//            mainVC.bleConnectDatenAR = bleConnectDatenAR
-//            navigationController.popViewControllerAnimated(true)
-            // self.navigationController!.popToRootViewControllerAnimated(true)
-            
-            
-            performSegueWithIdentifier(identifier, sender: senderCell)
-            
-        }
+		performSegueWithIdentifier(identifier, sender: senderCell)
     }
     
     

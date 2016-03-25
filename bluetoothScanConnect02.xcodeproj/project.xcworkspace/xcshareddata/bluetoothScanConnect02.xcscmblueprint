@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C8A614512952B728975F0E5B0313FF8A0D805F22",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C8A614512952B728975F0E5B0313FF8A0D805F22" : 0,
+    "576EBC0634D3260C207303A60A631BD68FBBFDA1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2FA1A51E-D568-48C3-A8B5-D482631B24F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C8A614512952B728975F0E5B0313FF8A0D805F22" : "bluetoothScanConnect02\/",
+    "576EBC0634D3260C207303A60A631BD68FBBFDA1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bluetoothScanConnect02",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bluetoothScanConnect02.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:conectas\/bluetooth01.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "576EBC0634D3260C207303A60A631BD68FBBFDA1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/conectas\/bluetoothScanConnect02.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8A614512952B728975F0E5B0313FF8A0D805F22"
+    }
+  ]
+}
