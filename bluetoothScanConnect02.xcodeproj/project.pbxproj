@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C613AE1C8379FA005B1CA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C613AD1C8379FA005B1CA6 /* AppDelegate.swift */; };
+		F8C613B01C8379FA005B1CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C613AF1C8379FA005B1CA6 /* ViewController.swift */; };
+		F8C613B31C8379FA005B1CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C613B11C8379FA005B1CA6 /* Main.storyboard */; };
+		F8C613B51C8379FA005B1CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C613B41C8379FA005B1CA6 /* Assets.xcassets */; };
+		F8C613B81C8379FA005B1CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C613B61C8379FA005B1CA6 /* LaunchScreen.storyboard */; };
+		F8C613C01C837AC0005B1CA6 /* BleScanTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C613BF1C837AC0005B1CA6 /* BleScanTVC.swift */; };
+		F8C613C31C837B05005B1CA6 /* BTDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C613C21C837B05005B1CA6 /* BTDiscovery.swift */; };
+		F8C613C51C837EB0005B1CA6 /* BleScanTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C613C41C837EB0005B1CA6 /* BleScanTVCell.swift */; };
+		F8C613C71C839D05005B1CA6 /* BTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C613C61C839D05005B1CA6 /* BTService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8C613AA1C8379FA005B1CA6 /* bluetoothScanConnect02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothScanConnect02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C613AD1C8379FA005B1CA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8C613AF1C8379FA005B1CA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8C613B21C8379FA005B1CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8C613B41C8379FA005B1CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8C613B71C8379FA005B1CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8C613B91C8379FA005B1CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C613BF1C837AC0005B1CA6 /* BleScanTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleScanTVC.swift; sourceTree = "<group>"; };
+		F8C613C21C837B05005B1CA6 /* BTDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDiscovery.swift; sourceTree = "<group>"; };
+		F8C613C41C837EB0005B1CA6 /* BleScanTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleScanTVCell.swift; sourceTree = "<group>"; };
+		F8C613C61C839D05005B1CA6 /* BTService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C613A71C8379FA005B1CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C613A11C8379FA005B1CA6 = {
+			isa = PBXGroup;
+			children = (
+				F8C613AC1C8379FA005B1CA6 /* bluetoothScanConnect02 */,
+				F8C613AB1C8379FA005B1CA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C613AB1C8379FA005B1CA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C613AA1C8379FA005B1CA6 /* bluetoothScanConnect02.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C613AC1C8379FA005B1CA6 /* bluetoothScanConnect02 */ = {
+			isa = PBXGroup;
+			children = (
+				F8C613B11C8379FA005B1CA6 /* Main.storyboard */,
+				F8C613AD1C8379FA005B1CA6 /* AppDelegate.swift */,
+				F8C613C11C837AE8005B1CA6 /* BteClasses */,
+				F8C613BF1C837AC0005B1CA6 /* BleScanTVC.swift */,
+				F8C613C41C837EB0005B1CA6 /* BleScanTVCell.swift */,
+				F8C613AF1C8379FA005B1CA6 /* ViewController.swift */,
+				F8C613B41C8379FA005B1CA6 /* Assets.xcassets */,
+				F8C613B61C8379FA005B1CA6 /* LaunchScreen.storyboard */,
+				F8C613B91C8379FA005B1CA6 /* Info.plist */,
+			);
+			path = bluetoothScanConnect02;
+			sourceTree = "<group>";
+		};
+		F8C613C11C837AE8005B1CA6 /* BteClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F8C613C21C837B05005B1CA6 /* BTDiscovery.swift */,
+				F8C613C61C839D05005B1CA6 /* BTService.swift */,
+			);
+			name = BteClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C613A91C8379FA005B1CA6 /* bluetoothScanConnect02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C613BC1C8379FA005B1CA6 /* Build configuration list for PBXNativeTarget "bluetoothScanConnect02" */;
+			buildPhases = (
+				F8C613A61C8379FA005B1CA6 /* Sources */,
+				F8C613A71C8379FA005B1CA6 /* Frameworks */,
+				F8C613A81C8379FA005B1CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bluetoothScanConnect02;
+			productName = bluetoothScanConnect02;
+			productReference = F8C613AA1C8379FA005B1CA6 /* bluetoothScanConnect02.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C613A21C8379FA005B1CA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = conectas;
+				TargetAttributes = {
+					F8C613A91C8379FA005B1CA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F8C613A51C8379FA005B1CA6 /* Build configuration list for PBXProject "bluetoothScanConnect02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C613A11C8379FA005B1CA6;
+			productRefGroup = F8C613AB1C8379FA005B1CA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C613A91C8379FA005B1CA6 /* bluetoothScanConnect02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C613A81C8379FA005B1CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C613B81C8379FA005B1CA6 /* LaunchScreen.storyboard in Resources */,
+				F8C613B51C8379FA005B1CA6 /* Assets.xcassets in Resources */,
+				F8C613B31C8379FA005B1CA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C613A61C8379FA005B1CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C613C01C837AC0005B1CA6 /* BleScanTVC.swift in Sources */,
+				F8C613B01C8379FA005B1CA6 /* ViewController.swift in Sources */,
+				F8C613C31C837B05005B1CA6 /* BTDiscovery.swift in Sources */,
+				F8C613C71C839D05005B1CA6 /* BTService.swift in Sources */,
+				F8C613AE1C8379FA005B1CA6 /* AppDelegate.swift in Sources */,
+				F8C613C51C837EB0005B1CA6 /* BleScanTVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8C613B11C8379FA005B1CA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C613B21C8379FA005B1CA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8C613B61C8379FA005B1CA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C613B71C8379FA005B1CA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C613BA1C8379FA005B1CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8C613BB1C8379FA005B1CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C613BD1C8379FA005B1CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bluetoothScanConnect02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.conectas.bluetoothScanConnect02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8C613BE1C8379FA005B1CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bluetoothScanConnect02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.conectas.bluetoothScanConnect02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C613A51C8379FA005B1CA6 /* Build configuration list for PBXProject "bluetoothScanConnect02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C613BA1C8379FA005B1CA6 /* Debug */,
+				F8C613BB1C8379FA005B1CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C613BC1C8379FA005B1CA6 /* Build configuration list for PBXNativeTarget "bluetoothScanConnect02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C613BD1C8379FA005B1CA6 /* Debug */,
+				F8C613BE1C8379FA005B1CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C613A21C8379FA005B1CA6 /* Project object */;
+}
